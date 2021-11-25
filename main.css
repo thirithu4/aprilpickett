@@ -2052,13 +2052,13 @@ ul.actions li {
   padding: 8em 0 8em 0;
   text-align: center;
   height: 100vh;
-	background-image: url('teahub.png');
+	
 }
 
 .wrapper.style1 {
   /* height: 100vh; */
   margin: 60px 0;
-/*   background-image: url('teahub.png'); */
+  background-image: url('teahub.png');
 }
 
 .wrapper.style1 h1 {
@@ -2075,19 +2075,19 @@ ul.actions li {
 .wrapper.style2 {
   /* height: 100vh; */
   background-color: lightseagreen;
-/*   background-image: url('images/teahub.png'); */
+  background-image: url('images/teahub.png');
 }
 
 .wrapper.style3 {
   /* height: 100vh; */
   background-color: lightseagreen;
-/*   background-image: url('teahub.png'); */
+  background-image: url('teahub.png');
 }
 
 .wrapper.style4 {
   /* height: 100vh; */
   background-color: lightseagreen;
-  
+  background-image: url('teahub.png');
 }
 
 .wrapper.style1 h1 {
