@@ -49,8 +49,9 @@
     <!-- Resume -->
     <div id="resume" class="wrapper style2">
 		  <div class="section-title">
+        <header>
 			<h3>Resume</h3>
-			<h5>I've lived in 3 countries and studied different majors but all of my working experiences have been in Semiconductor.</h5>
+			<h5>I've lived in 3 countries and studied different majors but all of my working experiences have been in Semiconductor.</h5></header>
 		  </div>
       <p>
         "Click on the wafer pictures for more details."
@@ -59,21 +60,21 @@
 
 		<div class="row aln-center">
 			<div class="col-4">
-				  <div class="image"><img src="images/school.PNG" alt="" /></div>
+				  <div class="image"><img src="images/school.PNG" alt="graduation" /></div>
 				  <h5>Bachelor's in Computer Science</h5>
 				  <h6>2017 - Present</h6>
 				  <p><em>Portland State University, Portland, OR</em></p>
 			</div>
 		  
 			<div class="col-4">
-				  <div class="image"><img src="images/graduation1.png" alt="" /></div>
+				  <div class="image"><img src="images/graduation1.png" alt="graduation" /></div>
 				  <h5>Master's in Environmental Engineering</h5>
 				  <h6>2004 - 2005</h6>
 				  <p><em>Nanyang Technological University, Singapore</em></p>
 			</div>
   
 			<div class="col-4">
-				  <div class="image"><img src="images/graduation1.png" alt="" /></div>
+				  <div class="image"><img src="images/graduation1.png" alt="graduation" /></div>
 				  <h5>Bachelor's in Chemical Engineering</h5>
 				  <h6>1996 - 2002</h6>
 				  <p><em>Yangon Technological University, Myanmar</em></p>	
@@ -82,7 +83,7 @@
       
 		  <div class="col-4">
         <br></br>
-        <button data-modal-target="popup-1" onclick="togglePopup1()" class="image"><img src="images/wafer1.png" alt="" /></button>
+        <button data-modal-target="popup-1" onclick="togglePopup1()" class="image"><img src="images/wafer1.png" alt="wafer" /></button>
         <h5>Photolithography Process Technician</h5>
 				  <h6>2010 - Present</h6>
 				  <p><em>Qorvo, Hillsboro, OR</em></p>
@@ -113,7 +114,7 @@
 		
 		  <div class="col-4">
 				<br></br>
-					<button data-modal-target="popup-2" onclick="togglePopup2()" class="image"><img src="images/wafer1.png" alt="" /></button>
+					<button data-modal-target="popup-2" onclick="togglePopup2()" class="image"><img src="images/wafer1.png" alt="wafer" /></button>
 					<h5>Wet Etch Shift Engineer</h5>
 					<h6>2007 - 2008</h6>
 					<p><em>IMFT, Lehi, Utah</em></p>
@@ -141,7 +142,7 @@
 
 		  <div class="col-4">
 				<br></br>
-				<button data-modal-target="popup-3" onclick="togglePopup3()"  class="image"><img src="images/wafer1.png" alt="" /></button>
+				<button data-modal-target="popup-3" onclick="togglePopup3()"  class="image"><img src="images/wafer1.png" alt="wafer" /></button>
 				<h5>Shift Engineer</h5>
 				<h6>2005 - 2007</h6>
 				<p><em>Amkor Technology, Singapore</em></p>
@@ -176,42 +177,38 @@
 		    <br></br>
         <div class="row">
           <div class="col-6">
-            
               <a href="https://github.com/toddgraham121/cs510-heart-attack-analysis" class="image featured"
                 ><img src="images/heart.PNG" alt="picture of a heart"
               /></a>
 			  <br></br>
               <h3>Heart Attack Analysis</h3>
               <p>A python web framework called Django was used to create a model for predicting whether or not an idividual has cardiovascular disease.</p>
-	
           </div>
           <div class="col-6">
-            
               <a href="https://github.com/lvoruz/pymongoProjectCS488-588" class="image featured"
                 ><img src="images/Data.PNG" alt="datamanagement"
               /></a>
 			  <br></br>
               <h3>Data Management Using Google Cloud Platform.</h3>
               <p>PyMongo was used to interact with a Mongo Database to perform specific queries.</p>
-			
           </div>
         </div>
     </div>
 
     <!-- Contact -->
     <div id="contact" class="wrapper style4">
-      <!-- <div class="container medium"> -->
         <header>
           <h3>Get in touch with me</h3>
         </header>
-        <!-- <div class="row"> -->
           <div class="col-12">
-            <form method="post" action="#">
+            <form method="post">
               <div class="row">
-                <div class="col-6 col-12-small">
-                  <input type="text" name="name" id="name" placeholder="Your Name" />
+                <div class="col-6">
+                  <label for="name">Your Name</label>
+                  <input type="text" id="name" name="name" placeholder="Your Name"/>
                 </div>
-                <div class="col-6 col-12-small">
+                <div class="col-6">
+                  <label for="email">Your Email</label>
                   <input
                     type="text"
                     name="email"
@@ -220,6 +217,7 @@
                   />
                 </div>
                 <div class="col-12">
+                  <label for="subject">Subject</label>
                   <input
                     type="text"
                     name="subject"
@@ -228,6 +226,7 @@
                   />
                 </div>
                 <div class="col-12">
+                  <label for="message">Message</label>
                   <textarea
                     name="message"
                     id="message"
@@ -238,7 +237,7 @@
                   <ul class="actions">
                     <li><input type="submit" value="Send Message" /></li>
                     <li>
-                      <input type="reset" value="Clear Form" class="alt" />
+                      <input type="reset" value="Clear Form"  />
                     </li>
                   </ul>
                 </div>
@@ -246,37 +245,18 @@
             </form>
           </div>
           <div class="col-12">
-            <!-- <hr /> -->
             <h4>Find me on ...</h4>
-            <ul class="social">
-              <button type="button" class="btn btn-outline-success">
-                <a href="https://github.com/thirithu4 " class="fab fa-3x fa-github"></a>
-                <!-- <div>Github</div> -->
-              </button>
-              <button type="button" class="btn btn-outline-success">
-                <a href="https://www.facebook.com/april.pickett.75"class="fab fa-3x fa-facebook"></a>
-                <!-- <div>LinkedIn</div> -->
-              </button>
-              <button type="button" class="btn btn-outline-success">
-                <a href="https://www.instagram.com/april.pickett.4" class="fab fa-3x fa-instagram"></a>
-                <!-- <div>Twitter</div> -->
-              </button>
-       
-            </ul>
-            <!-- <hr /> -->
+            <div class="social">
+              <a href="https://github.com/thirithu4" class="image featured"><img src="images/github.png" alt="github"
+              /></a>
+              <a href="https://www.facebook.com/april.pickett.75" class="facebook"><img src="images/facebook.png" alt="facebook"
+              /></a>
+              <a href="https://www.instagram.com/april.pickett.4" class="instagram"><img src="images/insta.png" alt="instagram"
+              /></a>
+            </div>
           </div>
-        <!-- </div> -->
-      <!-- </div> -->
     </div>
 
     <script src="main.js"></script>
-
-    <!-- Scripts
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/js/jquery.scrolly.min.js"></script>
-    <script src="assets/js/browser.min.js"></script>
-    <script src="assets/js/breakpoints.min.js"></script>
-    <script src="assets/js/util.js"></script>
-    <script src="assets/js/main.js"></script> -->
   </body>
 </html>
