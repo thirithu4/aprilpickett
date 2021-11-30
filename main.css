@@ -39,7 +39,7 @@ body {
   color: mediumblue;
   text-align: center;
   font-weight: bolder;
-  background-color:pink;
+  background-image:url('images/blue.jpg');
 }
 
 .wrapper.style1 {
