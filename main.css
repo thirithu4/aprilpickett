@@ -85,14 +85,12 @@ body {
   color: blue;
   font-style: italic;
   border: 3px solid navy;
-  background: seashell;
 }
 
 .wrapper.style4 form textarea {
   color: blue;
   font-style: italic;
   border: 3px solid navy;
-  background:seashell;
 }
 
 .wrapper.style4 form .actions input {
