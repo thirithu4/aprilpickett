@@ -23,7 +23,7 @@ body {
   text-decoration: none;
   font-weight: bold;
   font-size: larger;
-  padding: 2em;
+  padding: 1em;
 }
 
 #nav a:hover {
@@ -35,7 +35,7 @@ body {
 ----------------------------------------------- */
 
 .wrapper {
-  padding: 1em;
+  padding: 0.5em;
   color: mediumblue;
   text-align: center;
   font-weight: bolder;
@@ -43,7 +43,7 @@ body {
 }
 
 .wrapper.style1 {
-  padding: 8em;
+  padding: 3em;
   font-style: italic;
   margin-top: 50px;
 }
@@ -77,23 +77,27 @@ body {
   padding: 1.5em;
 }
 
+.wrapper.style3 h5 {
+  margin-bottom: 100px;
+}
+
 .wrapper.style4 form input {
   color: blue;
   font-style: italic;
   border: 3px solid navy;
-  background: powderblue;
+  background: seashell;
 }
 
 .wrapper.style4 form textarea {
   color: blue;
   font-style: italic;
   border: 3px solid navy;
-  background: powderblue;
+  background:seashell;
 }
 
 .wrapper.style4 form .actions input {
   border: 3px solid navy;
-  background: paleturquoise;
+  background:powderblue;
 }
 
 /*------------------------------------------------
