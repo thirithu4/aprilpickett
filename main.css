@@ -38,15 +38,11 @@ body {
   padding: 5em;
   color: mediumblue;
   text-align: center;
-  /* height: 100vh; */
+  font-weight: bolder;
   background-color: navajowhite;
-  /* background-color:deepskyblue; */
-  /* background-color:cornflowerblue;  */
-  /* background-image: url('images/blue.jpg'); */
 }
 
 .wrapper.style1 {
-  /* height: 100vh; */
   padding: 8em;
   font-style: italic;
   margin-top: 50px;
@@ -60,10 +56,15 @@ body {
 .wrapper.style1 h5 {
   font-size: 20px;
   line-height: 30px;
+  text-align: center;
 }
 
 .wrapper.style2 h3 {
   padding: 1.2em;
+}
+
+.wrapper.style3 h2 {
+  padding: 1.5em;
 }
 
 .wrapper.style4 h3 {
@@ -121,12 +122,11 @@ ul.actions input:hover {
 ---------------------------------------------*/
 
 .popup .overlay {
-  /* position:fixed; */
+  position: fixed;
   top: 0px;
   left: 0px;
-  /* width:100vw; */
-  /* height:100vh; */
-  background: none;
+  width: 100vw;
+  height: 100vh;
   z-index: 1;
   display: none;
 }
@@ -136,7 +136,7 @@ ul.actions input:hover {
   left: 50%;
   transform: translate(-50%, -50%) scale(0);
   background: white;
-  width: 50vw;
+  width: 95vw;
   height: 75vh;
   z-index: 2;
   text-align: left;
